@@ -11,6 +11,7 @@ export default function Main(props) {
           <AnimalCard 
             type={animal.type}
             name={animal.name}
+            says={animal.says}
             key={animal.type + i}
           />
         );
