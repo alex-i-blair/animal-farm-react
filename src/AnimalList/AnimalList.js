@@ -5,6 +5,7 @@ export default function AnimalCard(props) {
   return (
     <section className='animal-card'>
       <img src={`/animals/${props.type}.svg`} />
+      <p>{props.name}</p>
     </section>
   );
 }
