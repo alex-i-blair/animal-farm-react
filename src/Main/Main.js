@@ -9,9 +9,10 @@ export default function Main(props) {
       {props.animals.map((animal, i) => {
         return (
           <AnimalCard 
-            name={animal.name}
-            
-        )
+            type={animal.type}
+            key={animal.type + i}
+          />
+        );
       })}
     </main>
   );
