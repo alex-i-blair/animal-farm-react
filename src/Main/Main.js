@@ -12,6 +12,8 @@ export default function Main(props) {
             type={animal.type}
             name={animal.name}
             says={animal.says}
+            top={animal.top}
+            left={animal.left}
             key={animal.type + i}
           />
         );
